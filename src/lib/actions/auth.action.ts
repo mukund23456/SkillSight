@@ -4,7 +4,7 @@
 // For example, if your admin file is at src/firebase/admin.ts, use the following:
 // Update the import path below to the correct relative path if your admin file is located elsewhere.
 // For example, if your admin file is at src/firebase/admin.ts, use the following:
-import { auth, db } from "../../../firebase/admin";
+import { auth, db } from "../../firebase/admin";
 import { cookies } from "next/headers";
 
 // Session duration (1 week)

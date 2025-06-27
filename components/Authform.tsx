@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { toast } from "sonner";
 
-import { auth } from "../firebase/client";
+import { auth } from "../src/firebase/client";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
